@@ -1,0 +1,22 @@
+Update 
+updateMany - fazer vários updates
+
+db.tasks.update({ "titulo" : "Titulo A"} , {$set : { "descricao" : "MongoDb"}})
+
+
+Exercicios 
+
+db.tasks.update({"id" : ObjectId("5cee6b6459040c4ea5b8c601")},{"titulo" : "Titulo Uava", "descricao" : "Java Best", "concluida" : true})
+
+Titulo = Titulo OSharp
+Descrição = CShark
+Concluída = falso
+	
+db.tasks.update({"_id" : ObjectId("5cee6b6459040c4ea5b8c603")},{"titulo" : "Titulo Pirebase" , "descricao" : "Fireb4se"})
+
+Titulo = Titulo YMicrosoft
+Descrição = MicroSOFT
+
+Titulo = Titulo Roracle
+Descrição = Oracle Inc.
+Data de Inclusão = data de hoje
